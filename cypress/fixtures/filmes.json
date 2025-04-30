@@ -1,0 +1,33 @@
+[
+    {
+        "titulo" : "Zootopia",
+        "ano" : 2016,
+        "genero" : "Animação",
+        "descricao" : "Uma coelha policial e uma raposa trapaceira se unem para resolver um mistério em uma cidade habitada por animais."
+    },
+    {
+        "titulo" : "The Godfather",
+        "ano" : 1972,
+        "genero" : "Drama",
+        "descricao" : "A história da família mafiosa Corleone, centrada em Vito Corleone e seu filho Michael."
+    },
+    {
+        "titulo" : "Interstellar",
+        "ano" : 2014,
+        "genero" : "Ficção Científica",
+        "descricao" : "Um grupo de exploradores viaja através de um buraco de minhoca em busca de um novo lar para a humanidade."
+    },
+    {
+        "titulo" : "Os Vingadores",
+        "ano" : 2012,
+        "genero" : "Ação",
+        "descricao" : "Um grupo de super-heróis se une para salvar o mundo de uma ameaça alienígena."
+    },
+    {
+        "titulo" : "Jurassic Park",
+        "ano" : 1993,
+        "genero" : "Aventura",
+        "descricao" : "Um parque temático com dinossauros clonados sai do controle quando os animais escapam."
+    }
+
+]
