@@ -6,6 +6,10 @@ describe('US-00 : Funcionalidade Busca de filmes', () => {
         cy.visit('/')
     });
 
+    afterEach(() => {
+        cy.screenshot()
+    });
+
     it('Deve buscar um filme', () => {
         cy.get('#search-input').type('Harry Potter')
         cy.get('#search-button').click()

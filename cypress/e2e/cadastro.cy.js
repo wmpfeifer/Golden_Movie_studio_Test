@@ -8,13 +8,17 @@ describe('Funcionalidade Cadastro de membros', () => {
     cy.visit('/')
   });
 
+  afterEach(() => {
+    cy.screenshot()
+  });
+
   it('Deve fazer o cadastro de campos obrigatórios', () => {
     var email = `Willian${Date.now()}@teste.com`
     cy.preencherCadastro('Willian', 'Alves', email, '49999652092', '#TesteDigi123')
     cy.get('#signup-response').should('contain', 'Cadastro realizado com sucesso')
-      })
+      });
 
-    it.only('deve validar o cadastro em campos obrigatórios', () => {
+    it('deve validar o cadastro em campos obrigatórios', () => {
         cy.preencherCadastro('Willian20', 'Alves', 'Teste@willian.com', '49999652092', '#TesteDigi123')
         cy.get('#signup-response').should('contain', 'Nome deve conter apenas caracteres alfabéticos, acentuados e espaços')
       });
